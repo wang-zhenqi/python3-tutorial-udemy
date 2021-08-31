@@ -14,7 +14,7 @@ The official python website: [python.org](python.org).
 
 Python 2 is so much different from python 3, so before writing the program, choose a proper version.
 
-For practicing, we can choose the **second latest version**, because it is stable and contains enough new features.
+For practice, we can choose the **second latest version**, because it is stable and contains enough new features.
 
 We can install plenty of versions of python on the same machine. It is common that we use a different version for a different program. That's why we need a run-time version manager. Usually, `pipenv` is a good choice, it provides a virtual run-time environment for a specific program so that the program can be isolated from others.
 
@@ -26,7 +26,7 @@ But now, I'm used to using another tool called [`asdf`](http://asdf-vm.com/), it
 
 ## Indentation
 
-Either `space` or `tab`, as long as use the same rule of indentation. **4 spaces** is recommended.
+Either `space` or `tab` as long as use the same rule of indentation. **4-spaces** is recommended.
 
 
 
@@ -218,9 +218,9 @@ print(a[2], a[0:], a[-2])
 
 ## Dictionary
 
-A dictionary is similar as a map in another language like Java. The elements in dict are key-value pairs.
+A dictionary is similar to a map in another language like Java. The elements in dict are key-value pairs.
 
-As usual, the type of keys or values can all be various. For values, they can be whatever types you like, but for keys, only **Hashable** type is legit.
+As usual, the type of keys or values can all be various. For values, they can be whatever types you like, but for keys, only **hashable** type is legit.
 
 
 
@@ -230,7 +230,7 @@ As usual, the type of keys or values can all be various. For values, they can be
 >
 > -- [stack overflow](https://stackoverflow.com/questions/14535730/what-does-hashable-mean-in-python#:~:text=In%20Python%2C%20any%20immutable%20object,sets%20to%20track%20unique%20values.)
 
-What's more, a hashable object doesn't mean to be immutable, because you can define a class and make it hashable, but the object of this class could definitely changeable.
+What's more, a hashable object doesn't mean to be immutable, because you can define a class and make it hashable, but the object of this class could definitely be changeable.
 
 If you want to test whether an object is hashable or not, you can use `hash()` function, no error occurring means it's hashable.
 
@@ -307,15 +307,15 @@ d.pop('Name') # remove the key-value pair
 
 ## Set
 
-We can treat set as a dict without value. The items in a set are **distinct**, no duplication.
+We can treat a set as a dict without value. The items in a set are **distinct**, with no duplication.
 
-From this we can deduct that the data structure underneath is also the hash table, so that the items of a set should also be **hashable**.
+From this, we can deduct that the data structure behind the scene is also the hash table, so that the items of a set should also be **hashable**.
 
 
 
 ### Create a set
 
-Similar to creating a dict, use curling brackets: `a = {'a', 'b', 'c'}`
+Similar to creating a dict, use curly brackets: `a = {'a', 'b', 'c'}`
 
 Or you can use set():
 
