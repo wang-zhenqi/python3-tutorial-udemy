@@ -297,9 +297,9 @@ b = {**c, **d}
 ### Functions of dict
 
 ```python
-d.keys() # returns the dict_keys type data
-d.values() # returns the dict_values type data
-d.items() # returns the dict_items type data
+d.keys()      # returns the dict_keys type data
+d.values()    # returns the dict_values type data
+d.items()     # returns the dict_items type data
 d.pop('Name') # remove the key-value pair
 ```
 
@@ -331,16 +331,16 @@ s = set(l)
 
 ```python
 s = {3, 4, 5, 6}
-s.add(7)		# {3, 4, 5, 6, 7}
-s.remove(5)	#{3, 4, 6, 7}
+s.add(7).       # {3, 4, 5, 6, 7}
+s.remove(5)     #{3, 4, 6, 7}
 
 s1 = {1, 2, 3, 4}
 s2 = {3, 4, 5, 6}
 # operation of set
-print(s1 & s2)	# intersection: {3, 4}
-print(s1 | s2)	# union: {1, 2, 3, 4, 5, 6}
-print(s1 ^ s2)	# symmetric difference: {1, 2, 5, 6}
-print(s1 - s2)	# difference: {1, 2}
+print(s1 & s2)  # intersection: {3, 4}
+print(s1 | s2)  # union: {1, 2, 3, 4, 5, 6}
+print(s1 ^ s2)  # symmetric difference: {1, 2, 5, 6}
+print(s1 - s2)  # difference: {1, 2}
 ```
 
 
@@ -356,11 +356,11 @@ Boolean statements are statements having values of boolean type, which means the
 Typical boolean statements are as follows:
 
 ```python
-3 > 5 					# False
-3 == 9 / 3 			# True
-3 in range(10)	# True
-bool(1 & 0) 		# False
-a is not b			# It depends
+3 > 5           # False
+3 == 9 / 3      # True
+3 in range(10)  # True
+bool(1 & 0)     # False
+a is not b      # It depends
 ```
 
 
