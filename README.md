@@ -1,4 +1,4 @@
-> This repo contains the practicing source code when I learning Python on a Udemy lecture provided by Xiao Peng.
+This repo contains the practicing source code when I learning Python on a Udemy lecture provided by Xiao Peng.
 
 Here is the learning note that I think is worth keeping. It might not be systematic, but contains some key points that are easily forgotten.
 
@@ -68,8 +68,8 @@ See [this site](https://www.w3schools.com/python/python_ref_string.asp) for refe
 
 ```python
 a = "python"
-print(a[0])		# 'p'
-print(a[-2])	# 'o'
+print(a[0])     # 'p'
+print(a[-2])    # 'o'
 ```
 
 
@@ -78,11 +78,11 @@ print(a[-2])	# 'o'
 
 ```python
 a = "python"
-print(a[2:4])		# "th"
+print(a[2:4])   # "th"
 print(a[-6:-4]) # "py"
-print(a[0:-3])	# "pyt"
-print(a[:-2])		# "pyth"
-print(a[1:])		# "ython"
+print(a[0:-3])  # "pyt"
+print(a[:-2])   # "pyth"
+print(a[1:])    # "ython"
 ```
 
 
@@ -90,8 +90,8 @@ print(a[1:])		# "ython"
 ### Concatenating and Multiplying
 
 ```python
-a = "py" + "thon"		# "python"
-b = (a + ' ') * 3		# "python python python "
+a = "py" + "thon"    # "python"
+b = (a + ' ') * 3    # "python python python "
 ```
 
 
@@ -347,7 +347,7 @@ print(s1 - s2)  # difference: {1, 2}
 
 # Chapter 5 - Branch and Loop Statements
 
-Since this part is not very hard to understand, nor to remember, so I don't want to keep so many details, just some of the important points.
+Since this part is not very hard to understand, nor to remember, I don't want to keep so many details, just some of the important points.
 
 ## Boolean statements
 
