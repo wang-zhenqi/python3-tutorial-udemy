@@ -17,3 +17,10 @@ def mult(**kwargs):
     return result
 
 print(mult(a = 1, b = 2, c = 3))
+
+# Default value of arguments
+def default_value(a, b = 10):
+    return a + b
+
+print(default_value(5))
+print(default_value(5, 20))
